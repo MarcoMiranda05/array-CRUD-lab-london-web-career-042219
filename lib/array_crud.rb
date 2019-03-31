@@ -3,11 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Sao Paulo", "Corinthians", "Santos", "Palmeiras"]
+  teams = ["Sao Paulo", "Corinthians", "Santos", "Palmeiras"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push ("Portuguesa")
+  teams.push ("Portuguesa")
 end
 
 def add_element_to_start_of_array(array, element)
