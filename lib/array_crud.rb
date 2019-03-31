@@ -6,9 +6,9 @@ def create_an_array
   teams = ["Sao Paulo", "Corinthians", "Santos", "Palmeiras"]
 end
 
-def add_element_to_end_of_array(array = "teams", element = "arrayas!")
+def add_element_to_end_of_array(array = "teams", element = "arrays!")
   teams = ["Sao Paulo", "Corinthians", "Santos", "Palmeiras"]
-  teams << "arrayas!"
+  teams << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
